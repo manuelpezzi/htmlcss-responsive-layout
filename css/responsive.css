@@ -45,6 +45,17 @@
         flex-wrap: nowrap;
     }
 
+    .btn {
+        border: 0;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 10px 55px;
+        border-radius: 20px;
+        cursor: pointer;
+        text-transform: uppercase;
+        background-color: #fff;
+    }
+
 
 
 }
@@ -79,5 +90,16 @@
     footer {
         display: flex;
         justify-content: space-between;
+    }
+
+    .btn {
+        border: 0;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 5px 55px;
+        border-radius: 20px;
+        cursor: pointer;
+        text-transform: uppercase;
+        background-color: #fff;
     }
 }
