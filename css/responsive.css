@@ -45,7 +45,7 @@
         flex-wrap: nowrap;
     }
 
-    .btn {
+    .social-networks button {
         border: 0;
         font-size: 14px;
         font-weight: bold;
@@ -92,7 +92,7 @@
         justify-content: space-between;
     }
 
-    .btn {
+    .social-networks button {
         border: 0;
         font-size: 14px;
         font-weight: bold;
