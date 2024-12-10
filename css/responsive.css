@@ -102,4 +102,15 @@
         text-transform: uppercase;
         background-color: #fff;
     }
+
+    .quick-notes>ul {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    li {
+        width: auto;
+    }
+
+
 }
