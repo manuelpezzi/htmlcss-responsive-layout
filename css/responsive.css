@@ -4,5 +4,47 @@
         display: block;
     }
 
+    .recipe-origin {
+        display: inline-block;
+        font-size: 30px;
+    }
 
+    .recipe-title {
+        font-size: 30px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .recipe-origin {
+        display: inline-block;
+        font-size: 40px;
+    }
+
+    .recipe-title {
+        font-size: 40px;
+    }
+
+    .recipe-card {
+        display: flex;
+    }
+
+    .recipe-video {
+        width: 80%;
+        height: 27vw;
+    }
+
+    .recipe-info {
+        width: 40%;
+    }
+
+    .social-networks .label {
+        display: inline-block;
+    }
 }
