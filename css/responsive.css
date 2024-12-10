@@ -13,10 +13,13 @@
         font-size: 30px;
     }
 
-    ul {
+    .quick-notes>ul {
         display: flex;
-        justify-content: space-between;
         flex-wrap: wrap;
+    }
+
+    li {
+        width: calc(100% / 3);
     }
 
     .ads {
@@ -29,7 +32,20 @@
 
     }
 
-    .clearfix {}
+    .presentation img {
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .presentation h3 {
+        margin-top: 10rem;
+    }
+
+    footer ul {
+        flex-wrap: nowrap;
+    }
+
+
 
 }
 
