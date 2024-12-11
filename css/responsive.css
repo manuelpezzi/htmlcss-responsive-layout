@@ -1,7 +1,7 @@
 /* Soluzione qui */
 @media screen and (min-width: 768px) {
     #topbar {
-        display: block;
+        justify-content: flex-start;
     }
 
     .recipe-origin {
@@ -76,7 +76,7 @@
 
     .recipe-video {
         width: 80%;
-        height: 27vw;
+        height: auto;
     }
 
     .recipe-info {
